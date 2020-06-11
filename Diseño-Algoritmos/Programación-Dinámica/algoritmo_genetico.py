@@ -170,9 +170,9 @@ class Knapsack(object):
 
 
 """
-Cuando el algoritmo se inicializa de una población total de 100 por ejemplo, escoge 50 con el mejor fitness. En cada iteración se descartan aquellos individuos cuyo fitness es más bajo, además se combina entre ellos para
-obtener nuevos individuos hijos con caracteristicas diferentes. También se realiza un proceso llamada mutacion en el cual de randoriza los arrays para obtener nuevas combinacion, sin embargo no es segundo pues si no se cumple la
-condicion en ningun momento se realizará un cambio. Este proceso recrea a la situacion de que un individuo puede sufrir mutaciones.
+Cuando el algoritmo se inicializa con una población total de 100 por ejemplo, escoge 50 con el mejor fitness. En cada iteración se descartan aquellos individuos cuyo fitness es más bajo, además se combina entre ellos para
+obtener nuevos individuos hijos con caracteristicas diferentes. También se realiza un proceso llamado mutacion en el cual de randoriza los arrays para obtener nuevas combinacion, sin embargo no es seguro pues si no se cumple la
+condicion en ningun momento se realizará un cambio. Este proceso recrea la situacion de que un individuo puede sufrir mutaciones.
 
 El algoritmo se obtiene hasta que se genera la generación óptima, de otra manera seguirá creando hijos. En este caso la solución óptima es [0,1,1,1,0]
 
