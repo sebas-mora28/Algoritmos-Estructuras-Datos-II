@@ -137,7 +137,7 @@ print()
  SE REALIZARON CUATRO PRUEBAS DISTINTAS EN CON STRING DIFERENTES PARA CALCULAR EL TIEMPO DE EJECUCION ENTRE LOS DOS ENFOQUES PARA
  RESOLVER EL PROBLEMA:
 
-            Dividi y conquista              Programación dinámica 
+            Divide y conquista              Programación dinámica 
 
              1. 0.0007684  s                 1. 0.00009870  s
              2. 0.0000605  s                 2. 0.00006628  s
@@ -145,12 +145,12 @@ print()
              4. 5.1695387  s                 4. 0.00025415  s
 
 
-  Como podemos observar y como se esperaba la programación dinámica es más eficiente en tiempo de ejecución, sin embargo, en resultados
+  Como podemos observar y como se esperaba la programación dinámica es más eficiente en tiempo de ejecución, sin embargo, en inputs
   pequeños como el caso de la segunda prueba observamos que los resultados fueron bastantes similares, no así en las cadenas de string
   mas largos, donde la programación dinámica fue más eficiente. 
 
 
-  En la cuarta prueba observemos que existen una gran diferencia de tiempo entre los dos enfoques
+  En la cuarta prueba observemos que existen una gran diferencia de tiempo entre los dos enfoques.
 
 """
 
