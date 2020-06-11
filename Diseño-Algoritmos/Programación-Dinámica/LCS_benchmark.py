@@ -3,7 +3,7 @@ from time import time
 
 """
 
-SUBSTRING MAS LARGO RECURSIVO
+SUBSTRING MAS LARGO Divide y Conquista 
 
 """
 
